@@ -1,0 +1,51 @@
+.bg {
+  background-image: url(../../img/bg.jpg);
+  max-height: 180vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navbar */
+ul li a.nav-link {
+  color: #ffffff;
+}
+
+ul li a.nav-link:hover {
+  font-weight: bold;
+  color: #fff;
+}
+.navbar-custom {
+  width: 100%;
+  height: 10vh;
+  left: 0px;
+  top: 0px;
+  background: #412496;
+}
+.navbar-logo {
+  margin-right: 0.5rem;
+}
+/* Navbar End */
+
+.form {
+  padding-top: 3rem;
+}
+.tmbl {
+  width: 90px;
+}
+/* Footer */
+.Footer-sewauser {
+  margin-top: 13rem;
+  background-color: #412496;
+}
+
+.Footer {
+  margin-top: 20rem;
+  background-color: #412496;
+}
+.Footercontact {
+  margin-left: 4rem;
+  margin-top: 6rem;
+}
+/* Footer End */

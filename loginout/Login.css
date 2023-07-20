@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+/* Navbar */
+ul li a.nav-link {
+  color: #ffffff;
+}
+
+ul li a.nav-link:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-logo {
+  margin-right: 0.5rem;
+}
+
+/* Navbar End */
+
+.bg {
+  background-image: url(bg.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-login {
+  padding-top: 100px;
+}
+
+.login-custom {
+  padding: 20vh 7% 0;
+  width: 450px;
+  min-height: 450px;
+  border-radius: 25px;
+  box-shadow: 1px, 1px, 5px black;
+  padding: 40px 30px;
+  margin-bottom: 0rem;
+}
+.login-custom.login-text {
+  color: #111;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.login-custom .login-email .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.login-custom .login-email .input-group input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background: transparent;
+  padding: 15px 20px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.login-custom.login-email .input-group input:focus,
+.login-custom.login-email .input-group input:valid {
+  border: #6c5ce7;
+}
+.login-custom .login-email .input-group .btn {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5%;
+}
+
+.login-custom .login-email .input-group .btn:hover {
+  transform: translate(-5px);
+  background: #6c5ce7;
+}
+
+.btn {
+  margin-top: 0px;
+}
+
+.login-register-text {
+  color: #111;
+  font-weight: 600;
+}
+.login-register-text a {
+  text-decoration: none;
+  color: #6c5ce7;
+}
+@media (max-width: 430px) {
+  .login-custom {
+    width: 330px;
+  }
+}
+input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  background: transparent;
+  transition: 0.3s;
+}
+.login-custom .login-email .input-group .tombol {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  background: #59a3f7;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/*background color registrasi and log in */
+
+.login-custom,
+.login-email .input-group .btn:hover {
+  transform: translate(-5px);
+  background: rgba(227, 227, 227, 0.705);
+}
+.login-register-text {
+  color: #111;
+}
+.login-custom p {
+  margin-bottom: 20px;
+}
+/* Footer */
+.Footer {
+  background-color: #412496;
+}
+.Footercontact {
+  margin-left: 4rem;
+  margin-top: 6rem;
+}
+/* Footer End */
